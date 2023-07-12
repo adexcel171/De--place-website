@@ -1,0 +1,42 @@
+.Footer-container{
+  position:relative;
+}
+
+.Footer-container>hr{
+    border:1px solid var(--lightgray);
+}
+.footer-text{
+color: white;
+}
+.footer{
+    padding:1rem 2rem;
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+    align-items:center;
+    justify-content: center;
+    height:10rem;
+}
+
+.social-links{
+    display:flex;
+    gap:2rem;
+}
+
+.social-links>img{
+    width:2rem;
+    height:2rem;
+    cursor:pointer;
+}
+
+.logo-f{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:1rem 0;
+}
+
+.logo-f>img{
+    width:3rem;
+    border-radius: 50%;
+}

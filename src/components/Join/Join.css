@@ -1,0 +1,108 @@
+.Join{
+    display:flex;
+    padding:0 2rem;
+    gap:10rem;
+}
+
+.left-j{
+    color:white;
+    font-size:3rem;
+    font-weight:bold;
+    text-transform:uppercase;
+    position:relative;
+}
+
+.left-j>hr{
+    position:absolute;
+    width:10.5rem;
+    border:2px solid var(--orange);
+    border-radius:20%;
+    margin:-10px 0;
+}
+
+.left-j>div{
+    display:flex;
+    gap:1rem;
+}
+
+.right-j{
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.email-container{
+    display:flex;
+    border: 2px solid rgb(255, 255, 255);
+    width: 400px;
+    gap:3rem;
+    background-color:rgb(194, 31, 31);
+    padding:1.5rem 2rem;
+    border-radius: 16px;
+}
+
+.email-container>input{
+    background-color: transparent;
+    border:none;
+    outline:none;
+    color:var(--lightgray)
+}
+
+::placeholder{
+    color:var(--lightgray);
+}
+
+.btn-j{
+    width: 200px;
+    background-color:white;
+}
+@media (max-width: 767.98px){
+    .Join{
+        margin-top: 100px;
+        display:flex;
+        flex-direction: column;
+        
+        padding:0 2rem;
+        gap:10rem;
+    }
+    .left-j{
+        color:white;
+        font-size:2rem;
+        font-weight:bold;
+        text-transform:uppercase;
+        position:relative;
+    }
+    .btn-j{
+        background-color:var(--orange);
+        width: 80px;
+    }
+    
+.email-container{
+    display:flex;
+    border: 2px solid rgb(255, 255, 255);
+   
+    gap:3rem;
+    background-color:rgb(194, 31, 31);
+  margin: 0 12px;
+  padding: 4px 8px;
+    border-radius: 16px;
+}
+
+
+.right-j{
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+@media (max-width: 991.98px){
+   
+.right-j{
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+ 
+}
+
+}
